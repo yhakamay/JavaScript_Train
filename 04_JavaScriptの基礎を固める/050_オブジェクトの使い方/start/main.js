@@ -6,7 +6,7 @@ const person = {
 		sports: 'soccer',
 		music: 'piano'
 	},
-	putFullName: function() {
+	putFullName: function () {
 		console.log(this.name[0] + ' ' + this.name[1]);
 	}
 };
