@@ -3,4 +3,3 @@ if (undefined != true) {
 } else {
 	console.log('this is false');
 }
-
