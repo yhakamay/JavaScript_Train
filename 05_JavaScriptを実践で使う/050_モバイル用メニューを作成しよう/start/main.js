@@ -8,8 +8,9 @@ class MobileMenu {
 		this._addEvent();
 	}
 
+	// スマホ表示かPC表示かで分岐する
 	_getEventType() {
-		return window.ontouchstart ? 'touchstart' : 'click';
+		return this.eventType = window.ontouchstart ? 'touchstart' : 'click';
 	}
 
 	_toggle() {
